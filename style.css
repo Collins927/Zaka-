@@ -1,0 +1,189 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #1a5d1a;
+      color: rgb(61, 247, 4);
+      padding: 20px;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    nav {
+      background-color: #08df36;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+
+    nav :hover{
+      background-color: #1c7017;
+      transition: .7s;
+      opacity: 60%;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+
+    section {
+      padding: 30px;
+    }
+    
+    .hero {
+      background-color: #04f876;
+      padding: 40px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #1a5d1a;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+   #cta-button :hover{
+      background-color: #08df36;
+      transition-duration: .5s;
+    }
+
+#button{
+  background-color: #09fd09;
+  transition: .5s;
+}
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+
+    /* Shared section styles */
+#gallery, #testimonials, #newsletter {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f0f4f0; /* Soft eco-friendly tone */
+  margin-top: 40px;
+  border-top: 3px solid #1a5d1a;
+}
+
+/* Gallery section */
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-grid img {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Testimonials */
+.testimonial {
+  margin: 20px auto;
+  max-width: 600px;
+  font-style: italic;
+  color: #2e2e2e;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #1a5d1a;
+}
+
+/* Newsletter section */
+#newsletter h2 {
+  color: #1a5d1a;
+}
+
+#newsletter p {
+  color: #333;
+}
+
+#newsletter form {
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#newsletter button {
+  padding: 10px 20px;
+  background-color: #1a5d1a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#newsletter button:hover {
+  background-color: #4CAF50; /* Brighter green on hover */
+}
+footer {
+  text-align: center;
+  background-color: #333;
+  color: rgb(241, 247, 240);
+  padding: 20px 20px;
+}
+
+.footer-social h3 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.social-media li a {
+  color: rgb(9, 143, 5);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-media li a:hover {
+  color: #011802;
+  transition: .7s;
+  opacity: 50%;
+}
